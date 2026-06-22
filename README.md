@@ -7,6 +7,7 @@ Personal Codex custom pets.
 | Pet | Preview | Description |
 | --- | --- | --- |
 | Starling | ![Starling idle preview](pets/starling/previews/idle.gif) | A star-eyed anime-sticker debugging companion with a cream moon hair tuft, cyan-blue side hair, black hoodie, yellow star patch, and a small blue build-tool charm. It feels curious, careful, and focused on build, verify, and review loops. |
+| Starry Avatar | ![Starry Avatar idle preview](pets/starry-avatar/previews/idle.gif) | A starry-eyed anime avatar pet based on the provided cartoon profile image. |
 
 ## Install
 
@@ -28,7 +29,7 @@ Or install just one pet:
 
 ```bash
 mkdir -p ~/.codex/pets
-cp -R pets/starling ~/.codex/pets/starling
+cp -R pets/<pet-id> ~/.codex/pets/<pet-id>
 ```
 
 Restart Codex after copying the files. Codex loads custom pets from:
@@ -51,6 +52,9 @@ Each pet lives in its own folder under `pets/`:
 ```text
 pets/
   starling/
+    pet.json
+    spritesheet.webp
+  starry-avatar/
     pet.json
     spritesheet.webp
 ```

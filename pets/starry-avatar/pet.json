@@ -1,0 +1,6 @@
+{
+  "id": "starry-avatar",
+  "displayName": "Starry Avatar",
+  "description": "A starry-eyed anime avatar pet based on the provided cartoon profile image.",
+  "spritesheetPath": "spritesheet.webp"
+}
